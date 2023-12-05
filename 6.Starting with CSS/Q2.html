@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Styled Paragraphs</title>
+
+    <style>
+        /* BEM Styled Paragraphs */
+
+        .paragraph {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .paragraph__heading {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .paragraph__content {
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .paragraph--special {
+            background-color: #ffeecc;
+            border-color: #ffcc66;
+        }
+
+        .paragraph__content--emphasized {
+            font-weight: bold;
+            color: #0077cc;
+        }
+
+        .hero__title {
+            color: green;
+        }
+
+        .hero__description {
+            color: brown;
+        }
+
+        .btn {
+            background-color: #54fa54;
+        }
+
+        .hero__btn-primary {
+            background-color: purple;
+            color: wheat;
+        }
+
+        .hero__btn-secondary {
+            background-color: pink;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="paragraph">
+        <h2 class="paragraph__heading">Regular Paragraph</h2>
+        <p class="paragraph__content">This is a standard paragraph with no special styling.</p>
+    </div>
+
+    <div class="paragraph paragraph--special">
+        <h2 class="paragraph__heading">Special Paragraph</h2>
+        <p class="paragraph__content paragraph__content--emphasized">This paragraph has a special background and
+            emphasized content.</p>
+    </div>
+
+    <div class="paragraph">
+        <h2 class="paragraph__heading">Another Regular Paragraph</h2>
+        <p class="paragraph__content">This is another standard paragraph with no special styling.</p>
+    </div>
+
+    <div class="hero">
+        <p class="hero__title">This is my hero title</p>
+        <p class="hero__description">This is my hero description</p>
+        <button class="btn hero__btn-primary">This is my primary hero button</button>
+        <button class="btn hero__btn-secondary">This is my secondary hero button</button>
+    </div>
+
+</body>
+
+</html>
