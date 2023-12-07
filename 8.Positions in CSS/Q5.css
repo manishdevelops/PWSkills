@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box1 {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.box2 {
+    background-color: blue;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.box3 {
+    background-color: green;
+    top: 110px;
+    left: 110px;
+    /* No explicit z-index, so it will be stacked based on HTML order */
+}

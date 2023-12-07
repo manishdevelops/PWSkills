@@ -1,0 +1,15 @@
+main {
+    padding-inline: 300px;
+}
+
+.card {
+    padding: 10px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.card-image {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
