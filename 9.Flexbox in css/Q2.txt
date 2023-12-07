@@ -1,0 +1,40 @@
+justify-content: Determines how the content distributes along the main axis (horizontal axis by default) inside a flex container.
+
+Values:
+flex-start: Items are packed toward the start of the flex container.
+flex-end: Items are packed toward the end of the flex container.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+space-evenly: Items are evenly distributed with equal space around them, including at the start and end.
+
+
+align-items: Defines the default behavior for how items are aligned along the cross-axis (vertical axis by default) of a flex container.
+
+Values:
+flex-start: Items are aligned at the start of the cross axis.
+flex-end: Items are aligned at the end of the cross axis.
+center: Items are centered along the cross axis.
+baseline: Items are aligned such as their baselines align.
+stretch: Items are stretched to fill the container along the cross axis.
+
+
+gap: Specifies the size of the gap between flex items within a flex container.
+Values: Any valid length or percentage value, including normal (default), which computes to a value based on the layout mode.
+
+
+flex-direction: Establishes the main axis of the flex container and the direction in which flex items are placed.
+
+Values:
+row: Items are placed along the main axis in the direction of the inline axis (left to right in most cases).
+row-reverse: Same as row but reversed.
+column: Items are placed along the main axis in the direction of the block axis (top to bottom in most cases).
+column-reverse: Same as column but reversed.
+
+
+flex-wrap: Specifies whether flex items are forced onto a single line or can be wrapped onto multiple lines along the cross axis.
+
+Values:
+nowrap: All flex items are forced onto one line.
+wrap: Flex items are wrapped onto multiple lines from top to bottom.
+wrap-reverse: Flex items are wrapped onto multiple lines from bottom to top.
