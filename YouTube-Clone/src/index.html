@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="../dist/output.css" rel="stylesheet">
+        <title>YouTube Clone</title>
+</head>
+
+<body class="">
+    <div class='grid grid-flow-col p-3 m-2 shadow-md'>
+        <div class='flex col-span-1'>
+            <img class='h-8 mx-2 cursor-pointer' alt='menu'
+                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fmost-useful-icons-4%2F50%2FHAMBURGER_MENU-512.png&f=1&nofb=1&ipt=f7956754755d9f927d81848c6d270b933399e7fc6dd515ed6faa7f005c81dc07&ipo=images' />
+            <a href='/'>
+                <img class='h-6 m-1' alt='youtube logo'
+                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png' />
+            </a>
+        </div>
+        <div class='col-span-10 text-center relative'>
+            <div>
+                <input class='w-1/2 rounded-l-full border border-gray-400 p-2 focus:outline-none focus:border-blue-500'
+                    type='text' />
+                <button class='border border-gray-300  rounded-r-full py-2 px-6 bg-gray-50'>
+                    <i class='bx bx-search'></i>
+                </button>
+            </div>
+
+        </div>
+        <div class='col-span-1'>
+            <img class='h-8' alt='user-logo'
+                src='https://openclipart.org/image/2400px/svg_to_png/247319/abstract-user-flat-3.png' />
+        </div>
+    </div>
+
+    <div class='grid grid-flow-col'>
+        <!-- sidebar -->
+        <div class='p-3 shadow-lg w-52'>
+            <ul>
+                <li class='my-1 py-1.5 px-3 rounded-lg  hover:bg-slate-400 cursor-pointer'>
+                    <i class='bx bx-home'></i> <span class='ml-3'>Home</span>
+                </li>
+                </Link>
+
+                <li class='my-1 py-1.5 px-3 rounded-lg  hover:bg-slate-400 cursor-pointer'>
+                    <i class='bx bx-camera-movie'></i>
+                    <span class='ml-3'>Shorts</span>
+                </li>
+
+                <li class='my-1 py-1.5 px-3 rounded-lg  hover:bg-slate-400 cursor-pointer'>
+                    <i class='bx bxs-videos'></i>
+                    <span class='ml-3'>Subscriptions</span>
+                </li>
+            </ul>
+            <hr />
+
+            <h1 class='font-bold pt-5 '>Subscriptions</h1>
+            <ul>
+                <li class='my-1 py-1.5 px-3 rounded-lg  hover:bg-slate-400 cursor-pointer'>
+                    <i class='bx bx-music'></i> <span class='ml-3'>Music</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bxs-medal'></i> <span class='ml-3'>Sports</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-game'></i>
+                    <span class='ml-3'>Gaming</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-film'></i>
+                    <span class='ml-3'>Movies</span>
+                </li>
+            </ul>
+            <hr />
+            <h1 class='font-bold pt-5 px-3'>Explore</h1>
+            <ul>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bxs-hot'></i> <span class='ml-3'>Trending</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-shopping-bag'></i>
+                    <span class='ml-3'>Shopping</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-music'></i> <span class='ml-3'> Music</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-film'></i>
+                    <span class='ml-3'>Movies & Shows</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-wifi'></i> <span class='ml-3'>Live</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-game'></i>
+                    <span class='ml-3'>Gaming</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-news'></i> <span class='ml-3'>News</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bxs-medal'></i> <span class='ml-3'>Sports</span>
+                </li>
+                <li class='my-1 py-1.5 px-3 hover:bg-slate-400 rounded-lg cursor-pointer'>
+                    <i class='bx bx-bulb'></i> <span class='ml-3'>Learning</span>
+                </li>
+            </ul>
+        </div>
+        <div class='col-span-11'>
+            <!-- buttons -->
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>all</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Gaming</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Songs</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Live</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Soccer</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Cricket</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Cooking</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Valentine</button>
+            <button class='px-5 py-2 m-3 bg-gray-200 rounded-lg'>Shows</button>
+
+            <!-- video container -->
+            <div class='flex flex-wrap justify-evenly'>
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/Y8RDVRKMf_Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeqVqUSg2ZMVGIdlnQuygChFQUcw" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>FIGHTER: Ishq Jaisa Kuch (Song) Hrithik Roshan, Deepika Padukone |
+                            Vishal-Sheykhar,Shilpa,Kumaar</li>
+                        <li>T-series</li>
+                        <li>1.6M views • <span>5 hours ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/oUBlo5xvZ6E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWP_SH3YEKPtTjvGoxgLgU_jDMpA" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>Rahul Gandhi पर BJP का पलटवार, Anurag Thakur का आया बयान | Parliament
+                            Security Breach</li>
+                        <li>Punjab Kesari TV</li>
+                        <li>6.7K views • <span>55 minutes ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/LDX8S2oy9WY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDycDm7_MM3Bw1pq62nHR3_yDyBOA" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>Dry Day - Official Trailer | Jitendra Kumar, Shriya Pilgaonkar, Annu
+                            Kapoor | Prime Video India</li>
+                        <li>Prime Video India</li>
+                        <li>12M views • <span>8 days ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/UP1Wd4PGD3Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCY5jCK5LevjqHo8GTU1Vs7rLZ2CQ" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>SBI PO Group Discussion 2022-23 || SBI PO GD Topics || SBI PO Group
+                            Exercise || Episode - 1 by Oliveboard 690,892 views 10 months ago 22 minutes</li>
+                        <li>Oliveboard</li>
+                        <li>690K views • <span>10 months ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/HFr4h7WD6Hc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD7weazyI5k7K-5-ZAjgzpM2pjsVw" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>This UI Library is a GAME CHANGER! (Not Lying)</li>
+                        <li>Harkirat Singh</li>
+                        <li>152K views • <span>2 months ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/XKxCouS4W58/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChosycITIJtR95KLPptnKWO953ZQ" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>Glassy | Yo Yo Honey Singh | Ashok Mastie | Channi Rakhala | Vinnil
+                            Markan | Lyrical by Zee Music Company 4,682 views 1 hour ago 3 minutes, 55 seconds</li>
+                        <li>Zee Music Company</li>
+                        <li>4.6 views • <span>1 hour ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/uE925hp9KDk/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCxkk5pcx3hhR87VLHkmZA60IykUQ" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>React Interview Questions 🔥 for Freshers & Experienced | Preparation
+                            2024 🚀</li>
+                        <li>Akshay Saini</li>
+                        <li>4.6 views • <span>1 hour ago</span></li>
+                    </ul>
+                </div>
+
+                <div class=' m-2 w-72 shadow-lg rounded-md'>
+                    <img alt='thumbnail' class='rounded-t-md w-full'
+                        src="https://i.ytimg.com/vi/JIuuKMpWbZA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCJQVxJ5VJfjj4Hd5xNjWv6kmt9Zg" />
+                    <ul class='p-2'>
+                        <li class='py-2 font-bold'>Dunki Drop 5: O Maahi | Shah Rukh Khan | Taapsee Pannu | Pritam |
+                            Arijit Singh | Irshad Kamil by Dip Dey 55,614 views 3 days ago 4 minutes, 16 seconds</li>
+                        <li>T series</li>
+                        <li>50M views • <span>1 month ago</span></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
