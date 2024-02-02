@@ -1,0 +1,20 @@
+Precedence refers to the order in which operators are evaluated when multiple operators are present
+in an expression. Operators with higher precedence are executed first. For example, in the expression 3 + 5 * 2, multiplication (*) has higher precedence than addition (+), so the multiplication is performed first
+
+const result = 3 + 5 * 2; // The result will be 13, not 16 (if addition had higher precedence)
+
+Associativity refers to the order in which operators of the same precedence are evaluated. Some operators
+associate left to right, meaning they are evaluated from left to right. Others associate right to left, meaning they are evaluated from right to left.
+
+const result = 10 + 5 + 2; // The result will be 17 (evaluated as (10 + 5) + 2)
+
+
+Understanding precedence and associativity is important for several reasons:
+
+1.Correctness: Understanding the order of operations ensures that expressions are evaluated correctly, producing the expected results.
+
+2.Readability: Properly using parentheses and understanding precedence improves the readability of code by making the intent of expressions clearer to other developers.
+
+3.Avoiding Bugs: Misunderstanding precedence and associativity can lead to subtle bugs and unexpected behavior in code. Knowing these concepts helps in writing bug-free code.
+
+4.Performance: Properly structuring expressions based on precedence and associativity can also have implications for performance, especially in complex expressions or loops.

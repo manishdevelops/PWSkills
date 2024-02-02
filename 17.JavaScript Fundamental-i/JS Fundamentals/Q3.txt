@@ -1,0 +1,25 @@
+In JavaScript, there are five primitive data types:
+
+1. Number: Represents numeric values, including integers and floating-point numbers. JavaScript uses the Number data type to store both whole numbers and decimals.
+Example: 
+let age = 25;
+let price = 9.99;
+
+2. String: Represents textual data enclosed in single ' ' or double " " quotes. Strings can contain letters, digits, symbols, and whitespace characters.
+Example:
+let name = 'John Doe';
+let message = "Hello, world!";
+
+3. Boolean: Represents a logical value indicating either true or false. Booleans are commonly used for conditional expressions and logical operations.
+Example:
+let isActive = true;
+let isLoggedOut = false;
+
+4. Undefined: Represents a variable that has been declared but not assigned a value. If a variable is declared without initializing it, its value is automatically set to undefined.
+Example:
+let variable; // undefined
+
+5. Null: Represents an intentional absence of any value. It is often used to signify that a variable or object property does not have a value or does not exist.
+Example:
+let score = null;
+
