@@ -1,0 +1,9 @@
+Readability and Maintainability: Promises provide a more structured and linear flow, making code easier to read and maintain. This reduces the cognitive load on developers when reasoning about how the code executes.
+
+Avoiding Callback Hell: Promises eliminate the problem of "callback hell" by allowing asynchronous operations to be chained together in a flat and readable manner. This makes the code more elegant and less error-prone.
+
+Better Error Handling: With callbacks, each function must handle errors explicitly, often leading to repetitive and scattered error-handling code. Promises, on the other hand, allow errors to be caught and handled in a single place, improving code clarity and reducing duplication.
+
+Support for async/await: Promises are the foundation for the async/await syntax introduced in modern JavaScript. async/await further simplifies asynchronous code by making it look and behave like synchronous code, while still maintaining non-blocking behavior.
+
+Composability: Promises can be composed using Promise.all(), Promise.race(), and similar methods, allowing developers to handle multiple asynchronous operations in parallel or race conditions with ease.
